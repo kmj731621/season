@@ -1,0 +1,51 @@
+.header{
+    position: relative;
+}
+
+
+.header .title{
+    width: 800px;    
+    height: 40px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: gray;
+    font-size: 21px;
+    font: bold;
+    color: white;
+    padding: 30px;
+}
+.center{
+    position: relative;
+    height: 850px;
+    width: 472px;
+}
+
+
+.center .img{
+    width: 200px;    
+    height: 40px;
+    left:50;
+    right: 0;
+    text-align: center;
+    margin-left: 500px;
+    margin-right: 500px;
+    background-color: gray;
+}
+.center .img img{
+    width: 860px;
+    height: 800px;
+}
+
+.footer{
+    margin: 0 auto;
+    padding: 0 600px;
+}
+
+.footer .btn{
+    display: flex;
+    justify-content: space-between;
+
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>UI,UX</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="header">
+        <div class="title">
+            스마트문화앱컨텐츠제작
+        </div>
+    </div>
+    <div class="center">
+        <div class="img" >
+            <img src="img/1.png" alt="가을" id="img">
+        </div>
+    </div>
+    <div class="footer">
+        <div class="btn">
+            <button class="fall" onclick="fallbtn()">fall</button>
+            <script>
+                function fallbtn(){
+                    var img1 = document.getElementById("img");
+                    img1.src = 'img/1.png';
+                }
+            </script>
+            <button class="spring" onclick="springbtn()">spring</button>
+            <script>
+                function springbtn(){
+                    var img2 = document.getElementById("img");
+                    img2.src = 'img/2.png';
+                    console.log(img2);
+                }
+            </script>
+            <button class="summer" onclick="summerbtn()">summer</button>
+            <script>
+                function summerbtn(){
+                    var img3 = document.getElementById("img");
+                    img3.src = 'img/3.png';
+                }
+            </script>
+            <button class="winter" onclick="winterbtn()">winter</button>
+            <script>
+                function winterbtn(){
+                    var img4 = document.getElementById("img");
+                    img4.src = 'img/4.png';
+                }
+            </script>
+        </div>
+    </div>
+</body>
+</html>
